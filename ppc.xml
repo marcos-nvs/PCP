@@ -30,5 +30,28 @@
     </void>
    </object>
   </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ActorNode"/>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double1">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>116.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>77.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>116.0</double>
+     <double>77.0</double>
+    </void>
+   </object>
+  </void>
  </object>
 </java>
